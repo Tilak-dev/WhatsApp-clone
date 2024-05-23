@@ -6,9 +6,9 @@ import { TbMessageCircleUp } from "react-icons/tb";
 
 function TopLeft() {
   return (
-    <div className="flex flex-col  w-[60px] w- h-5/6 bg-[#222e35] text-gray-400 text-3xl pl-2.5 pt-2.5 pr-2.5">
+    <div className="flex flex-col  w-[60px] h-5/6 bg-[#222e35] text-gray-400 text-3xl pl-2.5 pt-2.5 pr-2.5 gap-3">
       <div className=" h-10 p-2">
-        <BiSolidMessageSquareDetail  className=""/>
+        <BiSolidMessageSquareDetail />
       </div>
       <div className=" h-10 p-2">
         <MdOutlineGroups />
