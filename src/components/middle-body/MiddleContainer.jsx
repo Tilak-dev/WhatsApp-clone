@@ -2,8 +2,8 @@ import React from 'react'
 import TopChatBar from './TopChatBar'
 import SearchBar from './SearchBar'
 import NestedBar from './NestedBar'
+import ChatListContainer from './chat-list/ChatListContainer'
 
-//w437px h512px
 function MiddleContainer() {
   return (
     <>
@@ -11,6 +11,7 @@ function MiddleContainer() {
       <TopChatBar />
       <SearchBar />
       <NestedBar />
+      <ChatListContainer />
     </div>
     </>
   )
