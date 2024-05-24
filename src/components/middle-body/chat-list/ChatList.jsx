@@ -1,12 +1,14 @@
-import React from 'react'
-import ChatImg from './ChatImg'
+import React from "react";
+import ChatImg from "./ChatImg";
+import ChatInfo from "./ChatInfo";
 
 function ChatList() {
   return (
-    <div>
+    <div className="flex flex-row items-center h-[73px] w-[495px]">
       <ChatImg />
+      <ChatInfo />
     </div>
-  )
+  );
 }
 
-export default ChatList
+export default ChatList;
