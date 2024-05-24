@@ -4,7 +4,7 @@ import ChatInfo from "./ChatInfo";
 
 function ChatList() {
   return (
-    <div className="flex flex-row items-center h-[73px] w-[495px]">
+    <div className=" flex flex-row w-[490px] hover:bg-[#3a5464]">
       <ChatImg />
       <ChatInfo />
     </div>

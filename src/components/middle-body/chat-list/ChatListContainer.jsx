@@ -7,6 +7,15 @@ function ChatListContainer() {
       <ChatList />
       <ChatList />
       <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
+      <ChatList />
     </div>
   )
 }
