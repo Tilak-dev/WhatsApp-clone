@@ -4,7 +4,6 @@ import { FaAngleDown } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
 import { LuMoreVertical } from "react-icons/lu";
 
-
 function TopChatInfo() {
   return (
     <>
@@ -18,7 +17,7 @@ function TopChatInfo() {
         <div className="w-[434px] h-[21px] text-[#e9edef]">
           <span className=" text-base">Kunal</span>
         </div>
-        <div className="w-[167px] h-[42px] text-[#8696a0] justify-end text-2xl flex flex-row items-center gap-2">
+        <div className="w-[200px] h-[42px] text-[#8696a0] justify-end text-2xl flex flex-row items-center gap-2">
           <div className="flex flex-row">
             <div className="flex flex-row text-[#4f6979] items-center ml-2.5 pt-[5px] pr-2.5 pl-2.5 pb-[3px]">
               <PiVideoCameraFill className=" pr-1.5" />

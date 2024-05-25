@@ -7,7 +7,7 @@ import ChatListContainer from './chat-list/ChatListContainer'
 function MiddleContainer() {
   return (
     <>
-    <div className=' w-[512px] h-[585.33px] flex flex-col '>
+    <div className=' w-[512px] min-h-screen h-[551.33px] bg-[#111b21] flex flex-col '>
       <TopChatBar />
       <SearchBar />
       <NestedBar />

@@ -3,7 +3,7 @@ import ChatList from './ChatList'
 
 function ChatListContainer() {
   return (
-    <div className='h-[437px] w-[512px] overflow-x-hidden overflow-scroll bg-[#111b21]'>
+    <div className='h-[437px]  w-[512px] overflow-x-hidden overflow-scroll bg-[#111b21]'>
       <ChatList />
       <ChatList />
       <ChatList />
